@@ -5,7 +5,8 @@
     color: 000;
     font-family: "Roboto", sans-serif;
 }
-
+//configurar a fonte
+#nav {
 #nav {
     display: flex;
     justify-content: center;
@@ -16,7 +17,7 @@
     height: 50px;
 }
 
-
+//personalizar a nav bar e cores 
 .nav-link {
     display: flex;
     gap: 20px;
@@ -24,7 +25,7 @@
     align-items: center;
     list-style: none;
 }
-
+//personalizar a nav bar
 
 .nav-link li {
     margin-right: 1em;
