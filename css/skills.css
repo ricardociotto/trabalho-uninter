@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: 000;
+    color: #000; /* Corrigi a cor aqui (era "000") */
     font-family: "Roboto", sans-serif;
 }
-//configurar a fonte
-#nav {
+
+/* Configurar a fonte */
 #nav {
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     height: 50px;
 }
 
-//personalizar a nav bar e cores 
+/* Personalizar a nav bar e cores */
 .nav-link {
     display: flex;
     gap: 20px;
@@ -25,32 +25,28 @@
     align-items: center;
     list-style: none;
 }
-//personalizar a nav bar
 
+/* Personalizar a nav bar */
 .nav-link li {
     margin-right: 1em;
 }
 
-.nav-link a
-{
+.nav-link a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.nav-link a:hover
-{
-   color: #60568A;
+.nav-link a:hover {
+    color: #60568A;
 }
 
-#main
-{
+#main {
     height: 100%;
 }
 
-.title
-{
+.title {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -58,8 +54,7 @@
     margin-bottom: 1rem;
 }
 
-.skills
-{
+.skills {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -67,14 +62,11 @@
     padding-top: 10px;
 }
 
-.dates span
-{
-
+.dates span {
     color: #60568A;
 }
-.skills img
-{
-  margin: 10px;
-  width: 8%;
 
+.skills img {
+    margin: 10px;
+    width: 8%;
 }
